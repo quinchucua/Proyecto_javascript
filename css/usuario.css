@@ -1,0 +1,11 @@
+#principal{
+    display: flex;
+    flex-direction: row;
+}
+#guardar{
+    border-radius: 10px;
+}
+#tabla{
+    margin-top: 50px;
+    display: none;
+}
