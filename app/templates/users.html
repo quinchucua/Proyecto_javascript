@@ -10,16 +10,25 @@
 <body>
     <div id="principal">
         <fieldset >
-            <label>Usuario: </label><input type="text" id="usuario">
+            <label>Nombre Completo: </label><input type="text" id="usuario">
+            <label>Correo Electronico: </label><input type="email" placeholder="Example@xxxx.com" id="email">
+            <label>Profesion: </label><input type="text" id="profesion">
             <input type="button" id="guardar" value="Aceptar" >
+            
         </fieldset>
     </div>
     <div>
         <table id="tabla">
-            <td>
-                <th>Usuario: </th>
-                <th id="mostrar">xxx</th>
-            </td>
+            <tr>
+                <th>Usuario</th>
+                <th>Archivo</th>
+                <th>Version</th>
+            </tr>
+            <tr id="informacion">
+                <th></th>
+                <th></th>
+                <th></th>
+            </tr>
         </table>
 
     </div>
