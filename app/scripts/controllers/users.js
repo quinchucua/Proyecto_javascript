@@ -27,7 +27,7 @@ function usersActionsController() {
         alert(Users.email+ " correo");
         alert(Users.profesion);
         d.style.display= 'block';
-        c.innerHTML=b.value;
+        c.innerHTML=usuario;
         b.value="";
 
         

@@ -18,7 +18,7 @@ function accion(){
     hash = GenerarHash();
     
     id = asignarid();
-    alert(id);
+    alert("id: "+id);
     alert(hash); 
     vc = c2.value;
     var comando = vc.split(" -m");    
@@ -27,7 +27,7 @@ function accion(){
         Commits["hash"]=hash;
         Commits["user_id"]=id;
         Commits["text_version"]=comando[1];
-        alert(Commits);
+        alert(Commits+" obketo commit");
         alert(Commits.hash);
     }
 
